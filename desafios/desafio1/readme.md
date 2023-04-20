@@ -7,5 +7,5 @@ docker pull tvpl/fullcycle
 ```
 
 ```
-docker run tvpl/fullcyclels
+docker run tvpl/fullcycle
 ```
