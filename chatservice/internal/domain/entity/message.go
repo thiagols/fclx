@@ -27,11 +27,9 @@ func NewMessage(role, content string, model *Model) (*Message, error) {
 		Model:     model,
 		CreatedAt: time.Now(),
 	}
-
 	if err := msg.Validate(); err != nil {
 		return nil, err
 	}
-
 	return msg, nil
 }
 
@@ -45,7 +43,6 @@ func (m *Message) Validate() error {
 	if m.CreatedAt.IsZero() {
 		return errors.New("invalid created at")
 	}
-
 	return nil
 }
 
