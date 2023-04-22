@@ -16,3 +16,8 @@
 
 .history/
 .env
+.dbdata
+.vscode
+node_modules
+.docker
+.DS_Store
